@@ -16,3 +16,13 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+Answer:
+
+In the worst-case scenario, this implementation would have a time complexity of $\Theta (N + E)$ where $N$ is the number of nodes and $E$ is the number of edges.
+
+In this case, all nodes are connected so we would need to traverse each node which would take $N$ time and all edges of the node which would take $E$ time.
+
+Overall, the worst-case time complexity is $\Theta (N + E)$.
+
+Referenced my graph-search repository to create the testing file.
